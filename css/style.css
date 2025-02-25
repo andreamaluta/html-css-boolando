@@ -11,6 +11,10 @@ header{
     padding: 20px;
 }
 
+footer{
+    background-color: aqua;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -33,11 +37,20 @@ header{
     width: 33%;
 }
 
+/* footer */
+
+.footer-col{
+    width: 50%;
+}
+
 /* lista */
 
-header ul{
+ul{
     list-style: none;
+    display: flex;
 }
+
+
 
 /* flexbox */
 
@@ -75,6 +88,14 @@ header ul{
     text-align: center;
 }
 
+.txt-right{
+    text-align: right;
+}
+
+.txt-left{
+    text-align: left;
+}
+
 /* utility */
 
 .bg-blue{
@@ -83,6 +104,10 @@ header ul{
 
 .bg-grey{
     background-color: grey;
+}
+
+.bg-black{
+    background-color: black;
 }
 
 .border{
@@ -117,4 +142,8 @@ header ul{
 
 .pdt-20{
     padding-top: 20px;
+}
+
+.pd-20{
+    padding: 20px;
 }
