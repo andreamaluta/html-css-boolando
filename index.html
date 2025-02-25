@@ -4,38 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boolando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="side-col bg-blue border hg-50 d-flex align-item-center">
+        <div class="container txt-white">
+            <div class="side-col d-flex align-item-center">
                 <ul>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
+                    <li class="mx-10">Donna</li>
+                    <li class="mx-10">Uomo</li>
+                    <li class="mx-10">Bambini</li>
                 </ul>
             </div>
-            <div class="mid-col bg-blue border hg-50 d-flex align-item-center justi-center">
-                Logo
+            <div class="mid-col d-flex align-item-center justi-center">
+                <img src="./img/boolean-logo.png" alt="logo" class="logo">
             </div>
-            <div class="side-col bg-blue border hg-50 d-flex align-item-center justi-end">
-                <span class="mx-10">1</span>
-                <span class="mx-10">2</span>
-                <span class="mx-10">3</span>
+            <div class="side-col d-flex align-item-center justi-end">
+                <i class="fa-solid fa-user mx-10"></i>
+                <i class="fa-solid fa-heart mx-10"></i>
+                <i class="fa-solid fa-bag-shopping mx-10"></i>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="container pdt-20 hg-700 wrap gap">
-                <div class="main-col hg-300 bg-grey "></div>
-                <div class="main-col hg-300 bg-grey "></div>
-                <div class="main-col hg-300 bg-grey "></div>
-                <div class="main-col hg-300 bg-grey "></div>
-                <div class="main-col hg-300 bg-grey "></div>
-                <div class="main-col hg-300 bg-grey "></div>
-            
+        <div class="container justi-center wrap gap">
+            <div class="main-col">
+                <div class="card pos-relative txt-white">
+                    <img src="./img/1.webp" alt="">
+                    <div class="pos-absolute d-flex">
+                        <div class="tag bg-red">
+                            -50%
+                        </div>
+                        <div class="tag bg-green mxl-5">
+                            Sostenibilità
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-col">
+                <div class="card pos-relative txt-white">
+                    <img src="./img/2.webp" alt="">
+                    <div class="tag bg-red pos-absolute">
+                        -30%
+                    </div>
+                </div>
+            </div>
+            <div class="main-col">
+                <div class="card pos-relative txt-white">
+                    <img src="./img/3.webp" alt="">
+                    <div class="tag bg-red pos-absolute">
+                        -30%
+                    </div>
+                </div>
+            </div>
+            <div class="main-col">
+                <div class="card pos-relative txt-white">
+                    <img src="./img/4.webp" alt="">
+                    <div class="pos-absolute d-flex">
+                        <div class="tag bg-red">
+                            -50%
+                        </div>
+                        <div class="tag bg-green mxl-5">
+                            Sostenibilità
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-col">
+                <div class="card pos-relative txt-white">
+                    <img src="./img/5.webp" alt="">
+                </div>
+            </div>
+            <div class="main-col">
+                <div class="card pos-relative txt-white">
+                    <img src="./img/6.webp" alt="">
+                    <div class="tag bg-green pos-absolute">
+                        Sostenibilità
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 

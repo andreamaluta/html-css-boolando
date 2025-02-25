@@ -6,9 +6,21 @@
 
 /* common */
 
+body{
+    font-family: "Atkinson Hyperlegible Next", serif;
+}
+
 header{
     background-color: rgb(255, 105, 0);
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 footer{
@@ -31,10 +43,22 @@ footer{
     width: 40%;
 }
 
+.logo{
+    width: 25%;
+}
+
 /* main */
 
 .main-col{
-    width: 33%;
+    width: 30%;
+}
+
+main img{
+    width: 100%;
+}
+
+.tag{
+    padding: 3px 10px;
 }
 
 /* footer */
@@ -79,7 +103,19 @@ ul{
 }
 
 .gap{
-    gap: 6px;
+    gap: 15px;
+}
+
+/* position */
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
 }
 
 /* text position */
@@ -110,8 +146,20 @@ ul{
     background-color: black;
 }
 
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: rgb(38, 209, 38);
+}
+
 .border{
     border: 1px solid black;
+}
+
+.txt-white{
+    color: #fff;
 }
 
 /* altezze */
@@ -130,6 +178,10 @@ ul{
 
 /* margini */
 
+.mxl-5{
+    margin-left: 5px;
+}
+
 .mx-10{
     margin: 0 10px 0 10px;
 }
@@ -140,8 +192,8 @@ ul{
 
 /* padding */
 
-.pdt-20{
-    padding-top: 20px;
+.pdt-50{
+    padding-top: 50px;
 }
 
 .pd-20{
