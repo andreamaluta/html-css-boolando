@@ -61,6 +61,13 @@ main img{
     padding: 3px 10px;
 }
 
+.heart{
+    position: absolute;
+    padding: 10px 10px;
+    right: 0px;
+    top: 10px;
+}
+
 /* footer */
 
 .footer-col{
@@ -152,6 +159,10 @@ ul{
 
 .bg-green{
     background-color: rgb(38, 209, 38);
+}
+
+.bg-white{
+    background-color: #fff;
 }
 
 .border{
