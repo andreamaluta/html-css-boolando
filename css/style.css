@@ -14,7 +14,10 @@ header{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
 }
+
+/* header */
 
 .side-col{
     width: 30%;
@@ -22,6 +25,12 @@ header{
 
 .mid-col{
     width: 40%;
+}
+
+/* main */
+
+.main-col{
+    width: 33%;
 }
 
 /* lista */
@@ -36,6 +45,10 @@ header ul{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .align-item-center{
     align-items: center;
 }
@@ -46,6 +59,14 @@ header ul{
 
 .justi-end{
     justify-content: flex-end;
+}
+
+.justi-content-between{
+    justify-content: space-between;
+}
+
+.gap{
+    gap: 6px;
 }
 
 /* text position */
@@ -60,6 +81,10 @@ header ul{
     background-color: blue;
 }
 
+.bg-grey{
+    background-color: grey;
+}
+
 .border{
     border: 1px solid black;
 }
@@ -70,8 +95,26 @@ header ul{
     height: 50px;
 }
 
+.hg-300{
+    height: 300px;
+}
+
+.hg-700{
+    height: 700px;
+}
+
 /* margini */
 
 .mx-10{
     margin: 0 10px 0 10px;
+}
+
+.my-15{
+    margin-bottom: 15px;
+}
+
+/* padding */
+
+.pdt-20{
+    padding-top: 20px;
 }
