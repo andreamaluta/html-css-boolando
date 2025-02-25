@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+body{
+    font-family: "Atkinson Hyperlegible Next", serif;
+}
+
+header{
+    background-color: rgb(255, 105, 0);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: rgba(26,26,26,255);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* header */
+
+.side-col{
+    width: 30%;
+}
+
+.mid-col{
+    width: 40%;
+}
+
+.logo{
+    width: 25%;
+}
+
+/* main */
+
+.main-col{
+    width: 30%;
+}
+
+main img{
+    width: 100%;
+}
+
+.tag{
+    padding: 3px 10px;
+}
+
+.heart{
+    position: absolute;
+    padding: 10px 10px;
+    right: 0px;
+    top: 10px;
+}
+
+.new-price{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(104, 103, 103, 0.5); */
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.card:hover .overlay{
+    opacity: 1;
+}
+
+.heart:hover{
+    color: red;
+}
+
+/* footer */
+
+.footer-col{
+    width: 50%;
+}
+
+/* lista */
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
+/* flexbox */
+
+.d-flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.justi-center{
+    justify-content: center;
+}
+
+.justi-end{
+    justify-content: flex-end;
+}
+
+.justi-content-between{
+    justify-content: space-between;
+}
+
+.gap{
+    gap: 15px;
+}
+
+/* position */
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+/* text position */
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+/* utility */
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: rgb(38, 209, 38);
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.txt-white{
+    color: #fff;
+}
+
+/* altezze */
+
+.hg-50{
+    height: 50px;
+}
+
+.hg-300{
+    height: 300px;
+}
+
+.hg-700{
+    height: 700px;
+}
+
+/* margini */
+
+.mxl-5{
+    margin-left: 5px;
+}
+
+.mxr-10{
+    margin-right: 10px;
+}
+
+.mx-10{
+    margin: 0 10px 0 10px;
+}
+
+.my-15{
+    margin-bottom: 15px;
+}
+
+/* padding */
+
+.pdt-50{
+    padding-top: 50px;
+}
+
+.pdbt-25{
+    padding: 25px 0;
+}
