@@ -24,7 +24,7 @@ main{
 }
 
 footer{
-    background-color: aqua;
+    background-color: rgba(26,26,26,255);
 }
 
 .container{
@@ -220,6 +220,10 @@ ul{
     margin-left: 5px;
 }
 
+.mxr-10{
+    margin-right: 10px;
+}
+
 .mx-10{
     margin: 0 10px 0 10px;
 }
@@ -234,6 +238,6 @@ ul{
     padding-top: 50px;
 }
 
-.pd-20{
-    padding: 20px;
+.pdbt-25{
+    padding: 25px 0;
 }
