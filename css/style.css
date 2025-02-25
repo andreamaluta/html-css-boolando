@@ -3,3 +3,75 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* common */
+
+header{
+    background-color: rgb(255, 105, 0);
+    padding: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.side-col{
+    width: 30%;
+}
+
+.mid-col{
+    width: 40%;
+}
+
+/* lista */
+
+header ul{
+    list-style: none;
+}
+
+/* flexbox */
+
+.d-flex{
+    display: flex;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.justi-center{
+    justify-content: center;
+}
+
+.justi-end{
+    justify-content: flex-end;
+}
+
+/* text position */
+
+.txt-center{
+    text-align: center;
+}
+
+/* utility */
+
+.bg-blue{
+    background-color: blue;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+/* altezze */
+
+.hg-50{
+    height: 50px;
+}
+
+/* margini */
+
+.mx-10{
+    margin: 0 10px 0 10px;
+}
